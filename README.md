@@ -1,5 +1,5 @@
 # 参考
-https://acris.me/2017/06/25/Load-balancing-multiple-PPPoE-on-LED
+[mwan3配置](https://acris.me/2017/06/25/Load-balancing-multiple-PPPoE-on-LEDE/#more)
 # 目标
 网速叠加
 # 方法
