@@ -25,5 +25,3 @@ config interface 'KGFAN'
 >balanced中添加所有成员
 - 规则
 >使用默认规则
-# 交流
-QQ群：[695837323](https://jq.qq.com/?_wv=1027&k=5d6Y4EC)
