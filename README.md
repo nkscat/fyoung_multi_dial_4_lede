@@ -1,8 +1,8 @@
 # 目标
 网速叠加
 # 依赖
-- [fchiannet](https://github.com/01Sr/fchinanet)
-- [mwan3](https://acris.me/2017/06/25/Load-balancing-multiple-PPPoE-on-LEDE/#more)
+1. [fchiannet](https://github.com/01Sr/fchinanet)
+2. [mwan3](https://acris.me/2017/06/25/Load-balancing-multiple-PPPoE-on-LEDE/#more)
 # 原理
 1. fchinanet
 2. openwrt环境下，配置了mwan3，流量优先通过metric小的interface
@@ -12,11 +12,3 @@
 2. 该shell语法不保证所有环境都可运行，在搞懂逻辑的情况下可能仍需1天时间让其在你的设备正常运行
 3. 非openwrt/基于op固件不要尝试
 4. 完全没玩过路由刷机可能要一周时间使其正常运行。有基础的使用者可能要花半天时，慎入
-
-
-
-
-
-
-
-
