@@ -2,10 +2,11 @@
 ########################################################################
 #                   Varibales you need to input.                      
 #                          All accounts.   
-#                    One account can dual twice.                             
-account[0]='-a phone_num1 -p passwd1 -imsi imsi1'
-account[1]='-a phone_num2 -p passwd2 -imsi imsi2'
-account[2]='-a phone_num3 -p passwd3 -imsi imsi3'
+#                    One account can dual twice.
+# The last param I can't give to you, you should get it from fchinanet.
+account[0]='-a phone_num1 -p passwd1 -xxxx xxxx1'
+account[1]='-a phone_num2 -p passwd2 -xxxx xxxx2'
+account[2]='-a phone_num3 -p passwd3 -xxxx xxxx3'
 #                         All interfaces.  
 interface=('wan1' 'wan2' 'wan3' 'wan4')
 # For me, I have 3 accounts to dual 3 times with type 0 and 1 time with
