@@ -1,7 +1,7 @@
 # 目标
 - 网速叠加
 # 依赖
-1. openwrt
+1. openwrt环境和7m以上剩余空间
 2. [fchiannet](https://github.com/01Sr/fchinanet)
 3. [mwan3](https://acris.me/2017/06/25/Load-balancing-multiple-PPPoE-on-LEDE/#more)
 # 原理
@@ -19,7 +19,7 @@ usr
 └───fchinanet
     │   README.md  ---  说明文件
     │   start.sh   ---  认证逻辑
-    |   core       ---  fchinanet核心认证程序，根据路由CPU架构更换
+    |   core       ---  fchinanet核心认证程序，需要根据路由CPU架构更换
     |   date       ---  日期记录文件，为本人实际使用场景所需，具体阅读代码，可删除相应逻辑
     |   log        ---  日志记录
     |   exit       ---  退出文件，文件内容可为任意值，默认是0
