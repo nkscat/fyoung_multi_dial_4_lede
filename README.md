@@ -1,5 +1,5 @@
 # 目标
-网速叠加
+- 网速叠加
 # 依赖
 1. [fchiannet](https://github.com/01Sr/fchinanet)
 2. [mwan3](https://acris.me/2017/06/25/Load-balancing-multiple-PPPoE-on-LEDE/#more)
