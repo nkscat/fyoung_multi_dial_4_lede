@@ -9,9 +9,10 @@ account[2]='-a phone_num3 -p passwd3 -imsi imsi3'
 #                         All interfaces.  
 interface=('wan1' 'wan2' 'wan3' 'wan4')
 # For me, I have 3 accounts to dual 3 times with type 0 and 1 time with
-# type 1 with 3 account turn to use. In another word, I dual 4 times daily. 
-# The reason why it is not 6 times is only 650h available for each account 
-# monthly. It is not enough for twice_dual every day. Hope you've got it.               
+# type 1, totally 3 accounts with type 1 turn to use. In another word, 
+# I dual 4 times daily. The reason why it is not 6 times is only 650h 
+# available for each account monthly. It is not enough for twice_dual 
+# every day. Hope you've got it.               
 #                          Config Files.                             
 program='/usr/fchinanet/core '                                         
 log_file='/usr/fchinanet/log'                                          
